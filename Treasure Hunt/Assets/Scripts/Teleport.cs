@@ -1,11 +1,8 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Teleport : MonoBehaviour
 {
-    public GameObject player;
-    public Transform teleportDestination;
-
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -13,13 +10,20 @@ public class Teleport : MonoBehaviour
             GameManager gameManager = FindObjectOfType<GameManager>();
             if (gameManager != null && gameManager.HasEnoughTreasures())
             {
-                CharacterController controller = player.GetComponent<CharacterController>();
-                if (controller != null) controller.enabled = false;
+                int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
-                player.transform.position = teleportDestination.position;
-                Debug.Log("Player teleported!");
-
-                if (controller != null) controller.enabled = true;
+                if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+                {
+                    // Load the next scene in the build order
+                    SceneManager.LoadScene(nextSceneIndex);
+                    Debug.Log("Loading next scene...");
+                }
+                else
+                {
+                    // If no more scenes, load the main menu (first scene)
+                    SceneManager.LoadScene(0);
+                    Debug.Log("Returning to main menu...");
+                }
             }
             else
             {
