@@ -1,10 +1,12 @@
 using UnityEngine;
+
 public class PlayerController : MonoBehaviour
 {
     public float speed = 6.0f;
     public float jumpHeight = 1.0f;
     public float gravity = -9.81f;
     public float turnSmoothTime = 0.1f;
+    public Transform cameraTransform; // Reference to the camera's Transform
 
     private CharacterController controller;
     private Vector3 velocity;
@@ -17,21 +19,27 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // Movement input
+        // Get movement input
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
-        Vector3 direction = new Vector3(vertical, 0f, horizontal).normalized;
+        float sprintSpeed = speed * 5;
+        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
         if (direction.magnitude >= 0.1f)
         {
-            // Calculate target angle
-            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
+            // Calculate the camera-aligned movement direction
+            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cameraTransform.eulerAngles.y;
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
-            // Move the player
+            // Calculate move direction relative to camera
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-            controller.Move(moveDir.normalized * speed * Time.deltaTime);
+
+            if (Input.GetKey(KeyCode.LeftShift))
+                controller.Move(moveDir.normalized * sprintSpeed * Time.deltaTime);
+            else
+                controller.Move(moveDir.normalized * speed * Time.deltaTime);
+            
         }
 
         // Jumping
