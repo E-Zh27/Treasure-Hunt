@@ -379,6 +379,7 @@ MonoBehaviour:
   jumpHeight: 1
   gravity: -9.81
   turnSmoothTime: 0.1
+  cameraTransform: {fileID: 2011886070}
 --- !u!1 &1577763488
 GameObject:
   m_ObjectHideFlags: 0
