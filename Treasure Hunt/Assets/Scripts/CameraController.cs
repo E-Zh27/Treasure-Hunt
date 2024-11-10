@@ -30,7 +30,7 @@ public class CameraController : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y") * rotationSpeed;
 
         yaw += mouseX;          // Adjust yaw based on horizontal mouse movement
-        pitch -= mouseY;        // Adjust pitch based on vertical mouse movement
+        pitch += mouseY;        // Adjust pitch based on vertical mouse movement
         pitch = Mathf.Clamp(pitch, minPitch, maxPitch); // Clamp pitch
 
         // Create rotation based on pitch and yaw
