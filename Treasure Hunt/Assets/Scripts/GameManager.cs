@@ -1,15 +1,16 @@
 using UnityEngine;
 using UnityEngine.UI; // Required for UI elements
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
     public int score = 0; 
-    public Text scoreText; 
+    public TextMeshProUGUI current;
     public int requiredTreasures = 3; 
 
     void Start()
     {
-        UpdateScoreText(); 
+        UpdateScoreText();
     }
 
     public void AddScore(int points)
@@ -25,6 +26,6 @@ public class GameManager : MonoBehaviour
 
     void UpdateScoreText()
     {
-        scoreText.text = "Score: " + score; 
+        current.text = "Score: " + score; 
     }
 }
