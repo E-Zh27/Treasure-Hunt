@@ -9,7 +9,7 @@ public class DeathScreen : MonoBehaviour
     // Called when we click the "Retry" button.
     public void OnRetryButton ()
     {
-
+        
     }
     
     // Called when we click the "Main Menu" button.
