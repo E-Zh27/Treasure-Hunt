@@ -11,6 +11,7 @@ public class PauseScreen : MonoBehaviour
     public void OnResumeButton ()
     {
         pauseMenu.gameObject.SetActive(!pauseMenu.gameObject.activeSelf);
+        Cursor.lockState = CursorLockMode.Locked;
         Time.timeScale = 1;
     }
     
