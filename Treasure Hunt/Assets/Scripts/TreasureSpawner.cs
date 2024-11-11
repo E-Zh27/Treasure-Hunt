@@ -3,7 +3,6 @@ using UnityEngine;
 public class TreasureSpawner : MonoBehaviour
 {
     public GameObject treasurePrefab;
-    public GameObject AI;
     public int numberOfTreasures = 10;
     public GameObject plane; 
 
@@ -27,7 +26,6 @@ public class TreasureSpawner : MonoBehaviour
             Vector3 randomPosition = new Vector3(randomX + planeCenter.x, planeCenter.y + 1, randomZ + planeCenter.z);
 
             Instantiate(treasurePrefab, randomPosition, Quaternion.identity);
-            Instantiate(AI, randomPosition, Quaternion.identity);
         }
     }
 }
