@@ -536,7 +536,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   treasurePrefab: {fileID: 4355758568488626787, guid: 7e1d93f29ca3d4464b2c485a099fe6b6, type: 3}
-  AI: {fileID: 1987807618}
   numberOfTreasures: 10
   plane: {fileID: 1631570187}
 --- !u!4 &821741086
@@ -690,6 +689,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+<<<<<<< HEAD
+=======
 --- !u!1001 &1987807617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -763,11 +764,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca5f76d38887d4b38ae31fba4f245765, type: 3}
---- !u!1 &1987807618 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7799511005896176146, guid: ca5f76d38887d4b38ae31fba4f245765, type: 3}
-  m_PrefabInstance: {fileID: 1987807617}
-  m_PrefabAsset: {fileID: 0}
+>>>>>>> 764388d82b6b94b60c4d337c174e1c2ba8446bdb
 --- !u!1 &1999663926
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,4 +821,3 @@ SceneRoots:
   - {fileID: 1999663928}
   - {fileID: 126838451}
   - {fileID: 821741086}
-  - {fileID: 1987807617}
