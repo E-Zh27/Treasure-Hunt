@@ -23,8 +23,8 @@ public class AIPatrol : MonoBehaviour {
         RaycastHit hit;
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         if (Physics.Raycast(transform.position, forward, out hit, detectionDistance)){
-            if (hit.collider.CompareTag("Wall")){
-                SelectNewWaypoint();
+           // if (hit.collider.CompareTag("Wall")){
+             {   SelectNewWaypoint();
 //you can change this to make your agent do something else!
             }
         }
