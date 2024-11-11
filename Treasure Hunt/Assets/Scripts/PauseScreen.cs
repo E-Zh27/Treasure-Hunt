@@ -18,6 +18,7 @@ public class PauseScreen : MonoBehaviour
     // Called when we click the "Main Menu" button.
     public void OnMainMenuButton ()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
 }
