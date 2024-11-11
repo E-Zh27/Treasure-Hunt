@@ -22235,6 +22235,22 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2471484039009765934, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_WholeNumbers
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935244361013414119, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -67.456
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935244361013414119, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -370.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2935244361013414119, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -156.12
+      objectReference: {fileID: 0}
     - target: {fileID: 3609592111398124004, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
