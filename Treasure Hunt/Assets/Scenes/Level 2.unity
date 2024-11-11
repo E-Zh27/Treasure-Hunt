@@ -5014,7 +5014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7758bf4c0a0a64120981616695dc97f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 1
+  points: 0
 --- !u!1001 &71090175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11053,7 +11053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7758bf4c0a0a64120981616695dc97f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 1
+  points: 0
 --- !u!1 &392177763
 GameObject:
   m_ObjectHideFlags: 0
@@ -17208,7 +17208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7758bf4c0a0a64120981616695dc97f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 1
+  points: 0
 --- !u!1 &608201192
 GameObject:
   m_ObjectHideFlags: 0
@@ -22206,7 +22206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7758bf4c0a0a64120981616695dc97f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 1
+  points: 0
 --- !u!1001 &715823258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27906,7 +27906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7758bf4c0a0a64120981616695dc97f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 1
+  points: 0
 --- !u!1001 &1126347505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28279,7 +28279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 715823259}
-  offset: {x: -2, y: 5, z: 1}
+  offset: {x: -2, y: 5, z: -5}
   rotationSpeed: 5
   smoothSpeed: 0.125
 --- !u!1 &1323548039
@@ -33387,7 +33387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7758bf4c0a0a64120981616695dc97f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 1
+  points: 0
 --- !u!1001 &1533648345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38446,7 +38446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7758bf4c0a0a64120981616695dc97f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 1
+  points: 0
 --- !u!1 &1570814141
 GameObject:
   m_ObjectHideFlags: 0
@@ -44545,7 +44545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7758bf4c0a0a64120981616695dc97f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 1
+  points: 0
 --- !u!1 &2097985286
 GameObject:
   m_ObjectHideFlags: 0
