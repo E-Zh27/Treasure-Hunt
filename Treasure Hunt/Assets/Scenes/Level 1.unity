@@ -478,7 +478,6 @@ GameObject:
   - component: {fileID: 1631570190}
   - component: {fileID: 1631570189}
   - component: {fileID: 1631570188}
-  - component: {fileID: 1631570191}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -535,7 +534,7 @@ Terrain:
   m_ReflectionProbeUsage: 1
   m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
-  m_PreserveTreePrototypeLayers: 0
+  m_PreserveTreePrototypeLayers: 1
   m_DeringLightProbesForTrees: 1
   m_ReceiveGI: 1
   m_ScaleInLightmap: 0.0256
@@ -561,50 +560,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1631570191
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1631570187}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
- HEAD
-
 --- !u!1001 &1987807617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -678,10 +633,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca5f76d38887d4b38ae31fba4f245765, type: 3}
- HEAD
-
- 764388d82b6b94b60c4d337c174e1c2ba8446bdb
- 9b47995e8c45efcf613a6182f1021641c2b73569
 --- !u!1 &1999663926
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,9 +689,5 @@ SceneRoots:
   - {fileID: 17246088}
   - {fileID: 1631570190}
   - {fileID: 1999663928}
- HEAD
   - {fileID: 1987807617}
-
-  - {fileID: 126838451}
- 9b47995e8c45efcf613a6182f1021641c2b73569
   - {fileID: 821741086}
