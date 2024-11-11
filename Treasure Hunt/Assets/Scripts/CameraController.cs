@@ -8,8 +8,8 @@ public class CameraController : MonoBehaviour
     public float smoothSpeed = 0.125f;
     private float yaw = 0f;        // Horizontal rotation around the player
     private float pitch = 0f;      // Vertical rotation around the player
-    private float minPitch = -100f; // Minimum pitch angle
-    private float maxPitch = 75f;  // Maximum pitch angle
+    private float minPitch = -180f; // Minimum pitch angle
+    private float maxPitch = 120f;  // Maximum pitch angle
 
     void Start()
     {
