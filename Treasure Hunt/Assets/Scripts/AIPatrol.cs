@@ -70,4 +70,3 @@ public class AIPatrol : MonoBehaviour {
         Gizmos.DrawRay(transform.position, transform.forward * detectionDistance);
     }
 }
-
