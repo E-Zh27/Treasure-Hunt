@@ -8,7 +8,6 @@ public class Treasure : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("yes");
             GameManager gameManager = FindObjectOfType<GameManager>(); // Find the GameManager
             if (gameManager != null)
             {

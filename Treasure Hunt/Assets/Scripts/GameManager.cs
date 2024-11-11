@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public int score = 0; 
     public TextMeshProUGUI current;
-    public int requiredTreasures = 3; 
+    public int requiredTreasures = 8; 
 
     void Start()
     {
