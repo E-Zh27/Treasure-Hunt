@@ -24120,6 +24120,10 @@ PrefabInstance:
       value: Forced AI (1)
       objectReference: {fileID: 0}
     - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
+      propertyPath: rotationSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: waypoints.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -30024,6 +30028,18 @@ PrefabInstance:
       value: Forced AI (4)
       objectReference: {fileID: 0}
     - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
+      propertyPath: speed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
+      propertyPath: rotationSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
+      propertyPath: detectionDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: waypoints.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -35893,6 +35909,10 @@ PrefabInstance:
       value: Forced AI
       objectReference: {fileID: 0}
     - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
+      propertyPath: rotationSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: waypoints.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -36002,6 +36022,10 @@ PrefabInstance:
       value: Forced AI (2)
       objectReference: {fileID: 0}
     - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
+      propertyPath: rotationSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: waypoints.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -36109,6 +36133,18 @@ PrefabInstance:
     - target: {fileID: 4762230391111574978, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: m_Name
       value: Forced AI (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
+      propertyPath: speed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
+      propertyPath: rotationSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
+      propertyPath: detectionDistance
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: waypoints.Array.size
