@@ -514,12 +514,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1097474295612289796, guid: f9ccf1ef1376346058c2a3faa0fa46b2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097474295612289796, guid: f9ccf1ef1376346058c2a3faa0fa46b2, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097474295612289796, guid: f9ccf1ef1376346058c2a3faa0fa46b2, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1097474295612289796, guid: f9ccf1ef1376346058c2a3faa0fa46b2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1097474295612289796, guid: f9ccf1ef1376346058c2a3faa0fa46b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 1097474295612289796, guid: f9ccf1ef1376346058c2a3faa0fa46b2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10623,7 +10635,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 2, z: 1}
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!1 &1725242971
 GameObject:
   m_ObjectHideFlags: 0
