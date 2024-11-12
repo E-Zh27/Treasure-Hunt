@@ -6,7 +6,7 @@ public class DeathMenu : MonoBehaviour
 {
     public DeathMenu deathMenu;
     
-    public void Update()
+    public void Awake()
     {
             Cursor.lockState = CursorLockMode.None;
             deathMenu.gameObject.SetActive(true);

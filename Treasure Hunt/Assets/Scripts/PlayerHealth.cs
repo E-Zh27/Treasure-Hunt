@@ -72,7 +72,6 @@ public class PlayerHealth : MonoBehaviour
             healthBar.value = health;
             if (health <= 0){
                 Destroy(gameObject);  
-                deathMenu.Update();//here is the menu thing for death
             }
             else
                 StartCoroutine(DamageCooldown()); 
