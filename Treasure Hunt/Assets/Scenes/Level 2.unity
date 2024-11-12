@@ -5970,6 +5970,14 @@ PrefabInstance:
       value: -142.76
       objectReference: {fileID: 0}
     - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
+      propertyPath: rotationSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
+      propertyPath: detectionDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: waypoints.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -6065,6 +6073,10 @@ PrefabInstance:
     - target: {fileID: 4762230391111574978, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: m_Name
       value: Forced AI (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
+      propertyPath: rotationSpeed
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: waypoints.Array.size
@@ -11839,6 +11851,10 @@ PrefabInstance:
       value: Forced AI (3)
       objectReference: {fileID: 0}
     - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
+      propertyPath: rotationSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: waypoints.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -12063,7 +12079,7 @@ Transform:
   m_GameObject: {fileID: 478582851}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 28.05, y: 40, z: -22.16}
+  m_LocalPosition: {x: 28.25, y: 42.5, z: -21.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22247,6 +22263,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1188345806095647519, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_RenderMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1287677108652841588, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
       propertyPath: jumpHeight
       value: 2
@@ -22255,6 +22275,10 @@ PrefabInstance:
       propertyPath: cameraTransform
       value: 
       objectReference: {fileID: 1305547300}
+    - target: {fileID: 2180673042286927534, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2207090563383034106, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -22303,9 +22327,63 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+ HEAD
     - target: {fileID: 6351028021643039350, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+
+    - target: {fileID: 5667576797729554156, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667576797729554156, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667576797729554156, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 794
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667576797729554156, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 619
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667576797729554156, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667576797729554156, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667576797729554156, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667576797729554156, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 67
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667576797729554156, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667576797729554156, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667576797729554156, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667576797729554156, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 420.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5667576797729554156, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 277.5
+3d66d7e4dd9cd62658da426acd7926b27705139b
       objectReference: {fileID: 0}
     - target: {fileID: 6624076044098172549, guid: aab4ee56bef3947c0a870cad4c27c2d7, type: 3}
       propertyPath: m_Name
@@ -28688,7 +28766,7 @@ Transform:
   m_GameObject: {fileID: 1535439487}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 20.09, y: 40, z: -14.2}
+  m_LocalPosition: {x: 20.09, y: 42.5, z: -14.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -34160,6 +34238,13 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 0}
+ HEAD
+
+    - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
+      propertyPath: rotationSpeed
+      value: 20
+      objectReference: {fileID: 0}
+ 3d66d7e4dd9cd62658da426acd7926b27705139b
     - target: {fileID: 7022512864425189129, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: waypoints.Array.size
       value: 2
