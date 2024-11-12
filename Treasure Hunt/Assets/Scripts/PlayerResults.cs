@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class PlayerResults : MonoBehaviour
 {
     public GameManager gameManager;  // Reference to the GameManager object
+    public DeathMenu deathMenu;
 
     void Update()
     {
@@ -13,7 +14,7 @@ public class PlayerResults : MonoBehaviour
     // Method to call when the player dies
     public void PlayerDied()
     {
-        SceneManager.LoadScene(1);
+        deathMenu.Update();
     }
 
     // Check if the player has enough treasures to complete the level
