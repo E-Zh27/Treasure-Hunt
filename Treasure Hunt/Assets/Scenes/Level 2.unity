@@ -6492,11 +6492,15 @@ PrefabInstance:
     - target: {fileID: 1711862646044316455, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: player
       value: 
+ HEAD
       objectReference: {fileID: 1121671194}
     - target: {fileID: 1711862646044316455, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: attackRange
       value: 5
       objectReference: {fileID: 0}
+
+      objectReference: {fileID: 715823259}
+ c51d26d4f854d66df992fe99f76c7af2be6fd1f2
     - target: {fileID: 2137888182675843819, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -6624,11 +6628,15 @@ PrefabInstance:
     - target: {fileID: 1711862646044316455, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: player
       value: 
+ HEAD
       objectReference: {fileID: 1121671194}
     - target: {fileID: 1711862646044316455, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: attackRange
       value: 5
       objectReference: {fileID: 0}
+
+      objectReference: {fileID: 715823259}
+ c51d26d4f854d66df992fe99f76c7af2be6fd1f2
     - target: {fileID: 2137888182675843819, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -12735,11 +12743,15 @@ PrefabInstance:
     - target: {fileID: 1711862646044316455, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: player
       value: 
+ HEAD
       objectReference: {fileID: 1121671194}
     - target: {fileID: 1711862646044316455, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: attackRange
       value: 5
       objectReference: {fileID: 0}
+
+      objectReference: {fileID: 715823259}
+ c51d26d4f854d66df992fe99f76c7af2be6fd1f2
     - target: {fileID: 2137888182675843819, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -23585,7 +23597,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa74f1a72e64c43b98e5573ce127c4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+ HEAD
   player: {fileID: 1121671194}
+
+  player: {fileID: 715823259}
+ c51d26d4f854d66df992fe99f76c7af2be6fd1f2
   chaseRange: 10
   speed: 3
 --- !u!4 &781380842 stripped
@@ -40931,7 +40947,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa74f1a72e64c43b98e5573ce127c4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+ HEAD
   player: {fileID: 1121671194}
+
+  player: {fileID: 715823259}
+ c51d26d4f854d66df992fe99f76c7af2be6fd1f2
   chaseRange: 10
   speed: 3
 --- !u!4 &1650384819 stripped
@@ -41130,7 +41150,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa74f1a72e64c43b98e5573ce127c4da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+ HEAD
   player: {fileID: 1121671194}
+
+  player: {fileID: 715823259}
+ c51d26d4f854d66df992fe99f76c7af2be6fd1f2
   chaseRange: 10
   speed: 3
 --- !u!4 &1765905956 stripped

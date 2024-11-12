@@ -2261,7 +2261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   treasurePrefab: {fileID: 3313686709954201996, guid: 170eb45668809445a9bae77d3fa75380, type: 3}
   numberOfTreasures: 8
-  plane: {fileID: 1806202931}
+  terrain: {fileID: 1806202933}
 --- !u!4 &605462915
 Transform:
   m_ObjectHideFlags: 0
@@ -2271,7 +2271,7 @@ Transform:
   m_GameObject: {fileID: 605462913}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.009995, y: 3.8600073, z: -43.18}
+  m_LocalPosition: {x: -42.009995, y: 3.8600073, z: -42.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
