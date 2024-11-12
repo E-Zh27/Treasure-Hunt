@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 1;
         UpdateScoreText();
     }
 
