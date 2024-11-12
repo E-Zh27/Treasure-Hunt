@@ -3,18 +3,38 @@ using UnityEngine.SceneManagement;
 
 public class PlayerResults : MonoBehaviour
 {
-    public GameManager gameManager;  // Reference to the GameManager object
+    public GameManager gameManager;  
+    private bool levelCompleted = false;  
+    private int nextSceneIndex;  
+
+    private void Start()
+    {
+        nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+    }
 
     void Update()
     {
-        CheckGameProgress();
+        if (!levelCompleted)
+        {
+            CheckGameProgress();
+        }
     }
 
-    // Check if the player has enough treasures to complete the level
     private void CheckGameProgress()
     {
-        //Idk what scene we are suppose to go to
         if (gameManager != null && gameManager.HasEnoughTreasures())
-            SceneManager.LoadScene(1);
+        {
+            levelCompleted = true;
+
+            if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+            {
+                SceneManager.LoadScene(nextSceneIndex);
+                Debug.Log("Loading next scene...");
+            }
+            else
+            {
+                SceneManager.LoadScene(0);
+            }
+        }
     }
 }
