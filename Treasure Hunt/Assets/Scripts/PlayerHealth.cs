@@ -12,7 +12,7 @@ public class PlayerHealth : MonoBehaviour
     public float damageCooldown = 1.5f;
     public float fallDamageThreshold = 5f;  
     public float fallDamageMultiplier = 1f; 
-
+    public DeathMenu deathMenu;
     private bool isGrounded = true;
     private float lastYPosition;
 
@@ -71,7 +71,8 @@ public class PlayerHealth : MonoBehaviour
             health -= damage;
             healthBar.value = health;
             if (health <= 0){
-                Destroy(gameObject);  
+                Destroy(gameObject);
+                deathMenu.Awake();
             }
             else
                 StartCoroutine(DamageCooldown()); 
