@@ -11,12 +11,6 @@ public class PlayerResults : MonoBehaviour
         CheckGameProgress();
     }
 
-    // Method to call when the player dies
-    public void PlayerDied()
-    {
-        deathMenu.Update();
-    }
-
     // Check if the player has enough treasures to complete the level
     private void CheckGameProgress()
     {

@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -69,8 +70,10 @@ public class PlayerHealth : MonoBehaviour
         {
             health -= damage;
             healthBar.value = health;
-            if (health <= 0)
+            if (health <= 0){
                 Destroy(gameObject);  
+                deathMenu.Update();//here is the menu thing for death
+            }
             else
                 StartCoroutine(DamageCooldown()); 
         }
