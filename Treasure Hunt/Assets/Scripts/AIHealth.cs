@@ -6,7 +6,7 @@ public class AIHealth : MonoBehaviour
     public float health = 10f;
     public Slider healthBar;
 
-    private float damageAmount = 1f;
+    private float damageAmount = 2f;
 
     void Start()
     {
