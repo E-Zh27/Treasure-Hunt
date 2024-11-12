@@ -22866,7 +22866,7 @@ PrefabInstance:
       objectReference: {fileID: 1121671194}
     - target: {fileID: 3357291686420594760, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4241458723813845861, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24013,7 +24013,7 @@ PrefabInstance:
       objectReference: {fileID: 1121671194}
     - target: {fileID: 3357291686420594760, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4241458723813845861, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29207,6 +29207,7 @@ MonoBehaviour:
   damageCooldown: 1.5
   fallDamageThreshold: 5
   fallDamageMultiplier: 1
+  deathMenu: {fileID: 0}
 --- !u!114 &1121671199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29609,7 +29610,7 @@ PrefabInstance:
       objectReference: {fileID: 1121671194}
     - target: {fileID: 3357291686420594760, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4241458723813845861, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41201,7 +41202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3357291686420594760, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4241458723813845861, guid: b112ebed98a314146aafff73f954498b, type: 3}
       propertyPath: m_LocalPosition.x
