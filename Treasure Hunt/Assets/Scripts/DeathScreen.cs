@@ -4,12 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class DeathScreen : MonoBehaviour
 {
-   // Called when we click the " 
 
     // Called when we click the "Retry" button.
     public void OnRetryButton ()
     {
-        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     
     // Called when we click the "Main Menu" button.
