@@ -19,22 +19,8 @@ public class PlayerResults : MonoBehaviour
     // Check if the player has enough treasures to complete the level
     private void CheckGameProgress()
     {
+        //Idk what scene we are suppose to go to
         if (gameManager != null && gameManager.HasEnoughTreasures())
-            {
-                int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
-
-                if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
-                {
-                    // Load the next scene in the build order
-                    SceneManager.LoadScene(nextSceneIndex);
-                    Debug.Log("Loading next scene...");
-                }
-                else
-                {
-                    // If no more scenes, load the main menu (first scene)
-                    SceneManager.LoadScene(0);
-                    Debug.Log("Returning to main menu...");
-                }
-            }
+            SceneManager.LoadScene(1);
     }
 }
