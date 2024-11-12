@@ -4,29 +4,29 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
+
+    public AudioManager ambientSound;
     // Called when we click the "Level 1" button.
     public void OnLevel1Button ()
     {
+        Destroy(GameObject.Find("AmbientSound"));
         SceneManager.LoadScene(3);
     }    
 
     // Called when we click the "Level 2" button.
     public void OnLevel2Button ()
     {
+        Destroy(GameObject.Find("AmbientSound"));
         SceneManager.LoadScene(4);
+
     }    
 
     // Called when we click the "Level 3" button.
     public void OnLevel3Button ()
     {
+        Destroy(GameObject.Find("AmbientSound"));
         SceneManager.LoadScene(5);
-    }    
 
-
-    // Called when we click the "Level 4" button.
-    public void OnLevel4Button ()
-    {
-        SceneManager.LoadScene(6);
     }    
 
     // Called when we click the "Back" button.
