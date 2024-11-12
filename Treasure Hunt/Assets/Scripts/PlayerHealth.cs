@@ -56,7 +56,7 @@ public class PlayerHealth : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("bullet") && canTakeDamage)
+        if (other.CompareTag("bullet2") && canTakeDamage)
         {
             TakeDamage(damageAmount);
             Destroy(other.gameObject);  
